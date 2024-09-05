@@ -1,0 +1,31 @@
+
+git config --global user.name "Marcio Silva" -- define uma serie de configurações do git "git config"
+
+git config --global user.email m.s.cl@gmail.com
+
+ctrl + L -- limpa o terminal
+
+git config --global credential.helper cache --define como vai ser guardado o token
+
+git config --global credential.helper -- retorna o tipo de credenciais definida: "cache ou store".
+
+git config init.defaultBanch --retorna o nome da branch padrão.
+
+git config --global init.defaultBanch main -- define de forma global o nome da branch principal dos repositórios para main.
+
+git config --global --list   -- exibe a listagem das configurações globais.
+
+git remote -v --lista o repositório remoto vinculado.
+
+git remote add origin https://github.com/mscorp-ce/git-dio.git --vincula um repositório remote a um repositório local.
+
+git clone https://github.com/mscorp-ce/git-dio.git --clonando um repositório remoto.
+
+git add .  --adicionando arquivos modicados prontos para ser commitado.
+
+git commit -m "escreva o histórico." --commit de criação/modições.
+
+git pull origin main -- receber as atualizações do repositório remoto.
+
+git push origin main --enviar suas alterações locais para o repositório remoto, no branch especificado.
+
