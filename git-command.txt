@@ -29,3 +29,8 @@ git pull origin main -- receber as atualizações do repositório remoto.
 
 git push origin main --enviar suas alterações locais para o repositório remoto, no branch especificado.
 
+git log --utilizado para exibir o histórico de commits de um repositório.
+
+echo resumos/ > .gitignore --adicionando uma pasta para ser iginorada pelo git.
+
+touch aulas/.gitkeep --é utilizado para criar um arquivo vazio chamado .gitkeep dentro da pasta aulas. Esse arquivo serve para um propósito específico no contexto do Git: permitir que pastas vazias sejam rastreadas.
